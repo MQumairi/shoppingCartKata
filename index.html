@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Empty Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+
+  <h1>Shopping Cart Master</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h2>A</h2>
+        <button id="addA" class="btn btn-info">Add to Cart</button>
+        <p class="iteminfo">
+          Price: £50<br>
+          Offer: 3 for £130
+        </p>
+      </div>
+      <div class="col-sm">
+        <h2>B</h2>
+        <button id="addB" class="btn btn-info">Add to Cart</button>
+        <p class="iteminfo">
+          Price: £30<br>
+          Offer: 2 for £37
+        </p>
+      </div>
+      <div class="col-sm">
+        <h2>C</h2>
+        <button id="addC" class="btn btn-info">Add to Cart</button>
+        <p class="iteminfo">
+          Price: £20<br>
+          Offer: N/A
+        </p>
+      </div>
+      <div class="col-sm">
+        <h2>D</h2>
+        <button id="addD" class="btn btn-info">Add to Cart</button>
+        <p class="iteminfo">
+          Price: £10<br>
+          Offer: N/A
+        </p>
+      </div>
+    </div>
+  </div>
+
+<div id="CartStatus" class="container">
+  <p><span id ="cartListTitle">Cart is Empty!</span> <span id="cartList"></span></p>
+  <p>Total Price: £<span id="totalPrice">0</span></p>
+
+  <button id="reset" class="btn btn-success  btn-lg" >Buy Now!</button>
+</div>
+
+
+
+<script src="script.js" charset="utf-8"></script>
+<!-- For auto updates using LiveReload atom extension-->
+<!-- <script src="http://localhost:35729/livereload.js" charset="utf-8"></script> -->
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.container {
+  margin: auto;
+  margin-top: 4rem;
+  text-align: center;
+  border: black solid 1px;
+}
+
+.col-sm {
+  border: black solid 1px;
+  padding: 50px 50px 50px 50px;
+}
+
+#CartStatus {
+  padding: 20px 20px 20px 20px;
+}
+
+.iteminfo {
+  margin-top: 20px;
+}
