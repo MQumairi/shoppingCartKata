@@ -2,6 +2,8 @@ Good evening,
 
 Attached is my solution to the "Shopping Master" coding Kata.
 
+Open index.html using a browser to launch the solution.
+
 
 
 //HIGH LEVEL OVERVIEW
